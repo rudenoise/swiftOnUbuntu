@@ -21,6 +21,24 @@ swift --version
 # Target: x86_64-unknown-linux-gnu
 ```
 
+## Setup projects
+
+```
+mkdir aSwiftLibrary
+cd aSwiftLib
+swift package init --type library
+swift build
+swift test
+```
+
+```
+mkdir aSwiftExecutable
+cd aSwiftLib
+swift package init --type executable
+swift build
+swift test
+```
+
 ## To Try:
 
 * (fancy swift vim)[https://github.com/keith/swift.vim]
