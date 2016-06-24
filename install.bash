@@ -30,7 +30,7 @@ rm swift-3.0-preview-1-ubuntu15.10.tar.*
 sudo apt-get install -y git cmake ninja-build clang python uuid-dev libicu-dev icu-devtools libbsd-dev libedit-dev libxml2-dev libsqlite3-dev swig libpython-dev libncurses5-dev pkg-config libblocksruntime-dev
 
 # setup vim
-./vim.sh
+./vim.bash
 
 # move tools and add to path
 mv swift-3.0-preview-1-ubuntu15.10/usr ~/swift
